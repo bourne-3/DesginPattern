@@ -19,7 +19,7 @@ public class t02 {
     public int[] searchRange(int[] nums, int target) {
         int t1 = helper(nums, target);
         int t2 = helper(nums, target - 1);
-        //if (t1 == 0 || t2 == 0) return new int[]{-1, -1};
+        //if (ProxyFactory == 0 || t2 == 0) return new int[]{-1, -1};
         return new int[]{t2, t1-1};
     }
 
