@@ -1,2 +1,2 @@
-This resp is used for recording algorithm practice. 
+This resp is used for recording Desgin Pattern 
 	-- Author : Bourne
