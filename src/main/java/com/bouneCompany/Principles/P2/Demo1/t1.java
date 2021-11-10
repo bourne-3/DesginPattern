@@ -1,9 +1,9 @@
-package com.bouneCompany.Principles.P2;
+package com.bouneCompany.Principles.P2.Demo1;
 
 /**
 
  */
-public class RectangleDemo {
+public class t1 {
 
     public static void main(String[] args) {
 
