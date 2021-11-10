@@ -5,12 +5,12 @@ package com.bouneCompany.Principles.P5;
  */
 public class PetrolCar extends Car {
 
-    public static void main(String[] args) {
 
+    public PetrolCar() {
     }
 
-    public void T() {
-
+    public PetrolCar(Color color){
+        this.color = color;
     }
 
     @Override
