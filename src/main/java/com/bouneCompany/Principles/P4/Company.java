@@ -5,11 +5,13 @@ package com.bouneCompany.Principles.P4;
  */
 public class Company {
 
-    public static void main(String[] args) {
+    String name;
 
+    public Company(String name) {
+        this.name = name;
     }
 
-    public void T() {
-
+    public String getName() {
+        return name;
     }
 }

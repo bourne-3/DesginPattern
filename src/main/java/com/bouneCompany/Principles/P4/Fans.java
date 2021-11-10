@@ -4,12 +4,13 @@ package com.bouneCompany.Principles.P4;
 
  */
 public class Fans {
+    String name;
 
-    public static void main(String[] args) {
-
+    public Fans(String name) {
+        this.name = name;
     }
 
-    public void T() {
-
+    public String getName() {
+        return name;
     }
 }

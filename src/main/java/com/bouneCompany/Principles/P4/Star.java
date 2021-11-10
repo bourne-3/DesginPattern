@@ -5,11 +5,14 @@ package com.bouneCompany.Principles.P4;
  */
 public class Star {
 
-    public static void main(String[] args) {
+    String name;
 
+    public Star(String name) {
+        this.name = name;
     }
 
-    public void T() {
+    public String getName() {
+        return name;
 
     }
 }
