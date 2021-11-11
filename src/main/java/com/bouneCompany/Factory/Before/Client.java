@@ -7,7 +7,8 @@ public class Client {
 
     public static void main(String[] args) {
         CoffeeStore store = new CoffeeStore();
-        store.orderCoffe("AmericanCoffee");
+        Coffe coffe = store.orderCoffe("AmericanCoffee");
+
 
     }
 
